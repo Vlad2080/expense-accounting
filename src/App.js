@@ -5,20 +5,20 @@ import Costs from "./components/Costs/Costs";
 const INITIAL_COSTS = [
   {
     id: "c1",
-    date: new Date(2020, 2, 12),
-    description: "Холодильник",
+    date: new Date(2023, 2, 12),
+    description: "Table",
     amount: 999.99,
   },
   {
     id: "c2",
-    date: new Date(2021, 11, 25),
-    description: "MacBook",
+    date: new Date(2023, 11, 25),
+    description: "Laptop",
     amount: 1254.72,
   },
   {
     id: "c3",
-    date: new Date(2021, 3, 1),
-    description: "Джинсы",
+    date: new Date(2024, 3, 1),
+    description: "Shoes",
     amount: 49.99,
   },
 ];
@@ -29,7 +29,7 @@ const App = () => {
   // return React.createElement(
   //   "div",
   //   {},
-  //   React.createElement("h1", {}, "Начнём изучение React!"),
+  //   React.createElement("h1", {}, "learn React!"),
   //   React.createElement(Costs, { costs: costs })
   // );
 
